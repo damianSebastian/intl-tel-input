@@ -40,13 +40,13 @@ const defaults = {
   // don't insert international dial codes
   nationalMode: true,
   // display only these countries
-  onlyCountries: ['ro', 'us'],
+  onlyCountries: [],
   // number type to use for placeholders
   placeholderNumberType: 'MOBILE',
   // the countries at the top of the list. defaults to united states and united kingdom
-  preferredCountries: ['ro'],
+  preferredCountries: ['ro','us'],
   // display the country dial code next to the selected flag so it's not part of the typed number
-  separateDialCode: true,
+  separateDialCode: false,
   // specify the path to the libphonenumber script to enable validation/formatting
   utilsScript: '',
 };
